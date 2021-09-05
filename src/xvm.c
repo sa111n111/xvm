@@ -64,7 +64,7 @@ void parse() {
         // ADD IMMEDIATE called.
             printf("add r%d r%d r%d\n", reg1, reg2, reg3);
             registers[reg1] = registers[reg2] + registers[reg3];
-            fprintf(fp, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlet b = %d;\nlet c = %d;\nlet a = b + c;\n", registers[reg1], registers[reg2], registers[reg3]); /* cant be bothred with buffer fuckery. This looks ugly, but it will do for now. */
+            fprintf(fp, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlet b = %d;\nlet c = %d;\nlet a = b + c;\n", registers[reg2], registers[reg3]); /* cant be bothered with buffer fuckery. This looks ugly, but it will do for now. */
     }
 }
 

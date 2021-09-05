@@ -1,3 +1,3 @@
 build:
-	gcc src/xvm.c
+	gcc src/xvm.c -o xvm
 
