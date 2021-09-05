@@ -1,2 +1,2 @@
 # xvm
-small bytecode interpreter with half-baked js-gen
+small vm with half-baked js-gen
